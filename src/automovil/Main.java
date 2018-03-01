@@ -15,7 +15,15 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Motor motor= new Motor();
+        motor.setNumeroserie("123");
+        Llanta ll= new Llanta();
+        ll.setModelo("12");
+        Puerta puerta= new Puerta();
+        Automovil auto= new Automovil();
+        auto.addPuerta(puerta);
+        auto.addLlanta(ll);
+        auto.replaceMotor(motor);
         
     }
     
