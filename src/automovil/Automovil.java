@@ -69,4 +69,20 @@ public class Automovil {
         //buscar y cambiar
         return false;
     }
+    public Puerta[] getPuerta(){
+        return this.puertas;
+    }
+    public boolean addPuerta (Puerta puerta){
+        //
+        return false;
+    }
+    public boolean removePuerta (Puerta puerta){
+        return false;
+    } 
+    
+    public boolean replacePuerta (Puerta puerta, Puerta nuevapuerta){
+        //buscar y cambiar
+        return false;
+    }
+    
 }
