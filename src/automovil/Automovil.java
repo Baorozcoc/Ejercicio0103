@@ -14,8 +14,13 @@ public class Automovil {
     private int annio;
     private String modelo;
     
+    private Llanta[] llantas;
+    private Puerta[] puertas;
+    private Motor motor;
+    
     public Automovil(){
-        
+        this.llantas= new Llanta[4];
+        this.puertas= new Puerta[4];
     }
 
     public String getMarca() {
@@ -42,4 +47,26 @@ public class Automovil {
         this.modelo = modelo;
     }
     
+    public Motor getMotor(){
+        return this.motor;
+    }
+    public boolean replaceMotor(Motor motor){
+        this.motor = motor;
+        return false;
+    }
+    public Llanta[] getLlantas(){
+        return this.llantas;
+    }
+    public boolean addLlanta (Llanta llanta){
+        //
+        return false;
+    }
+    public boolean removeLlanta (Llanta llanta){
+        return false;
+    } 
+    
+    public boolean replaceLlanta (Llanta llanta, Llanta nueva){
+        //buscar y cambiar
+        return false;
+    }
 }
