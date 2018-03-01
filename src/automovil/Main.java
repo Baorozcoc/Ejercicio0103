@@ -24,6 +24,9 @@ public class Main {
         auto.addPuerta(puerta);
         auto.addLlanta(ll);
         auto.replaceMotor(motor);
+        auto.setMarca("bbb");
+        auto.setModelo("abc");
+        
         
     }
     
